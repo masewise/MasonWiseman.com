@@ -1,0 +1,82 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-family: Papyrus, 'High Tower Text', 'Century Gothic';
+}
+
+.vert-text h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+  color: #FFFFFF;
+  font-family: 'High Tower Text', 'Century Gothic', Arial;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Intro */
+
+.intro {
+  padding: 50px 0;
+}
+
+/* Portfolio */
+
+.img-portfolio {
+  margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+  padding: 50px 0px 50px 0px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/bg.jpg) no-repeat center center scroll; 
+  }
+
+}
